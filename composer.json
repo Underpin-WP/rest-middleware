@@ -1,0 +1,20 @@
+{
+  "name": "underpin/rest-middleware",
+  "description": "Rest API middleware for scripts",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Alex Standiford",
+      "email": "a@alexstandiford.com"
+    }
+  ],
+  "require": {
+    "underpin/script-loader": "^1.1"
+  },
+  "autoload": {
+    "files": [
+      "rest-middleware.php"
+    ]
+  }
+}
