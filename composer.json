@@ -14,8 +14,6 @@
     "underpin/script-loader": "^1.1"
   },
   "autoload": {
-    "files": [
-      "rest-middleware.php"
-    ]
+    "psr-4": {"Underpin\\Rest_Middleware\\":  "lib/"}
   }
 }
